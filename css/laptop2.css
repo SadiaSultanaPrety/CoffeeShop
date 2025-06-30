@@ -1,0 +1,239 @@
+@media only screen and (min-width:64.1rem) and (max-width: 83rem){
+    
+    @import url(../Playfair_Display_SC/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.parent{
+    width: 100%;
+    height: 130.563rem;
+    position: relative;
+    overflow: hidden;
+}
+/* Images top start */
+
+/* Images top start */
+.topsection{
+    width: 100%;
+    height: 50.625rem;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.Content{
+    width: 100%;
+    height: 29.125;
+    
+}
+
+.Content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.Content h1 br {
+    display: none;
+}
+
+.Content p{
+    color: rgba(54, 48, 49, 1);
+    margin-bottom: 2rem;
+    font-size: larger;
+}
+
+
+.Content button{
+    width: 11.188rem;
+    height: 4.125rem;
+    background-color: rgba(163, 106, 79, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2.25rem;
+    border: none;
+}
+
+/* lift side section end  */
+
+/* right side section start */
+
+.Heroimages img{
+    width: 30.563rem;
+    height: 30.063rem;
+}
+
+/* right side section end */
+
+/* Images top end */
+
+/* list section start */
+
+.listitem{
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45.25rem;
+}
+
+.list{
+    width: 45.875rem;
+    height: 10.75rem;
+    border-radius: 5rem;
+    background-color: rgba(236, 218, 196, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list img{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-bottom: 0.6rem;
+}
+
+.list h1{
+    margin-bottom: 0.6rem;
+}
+
+.list p{
+    text-align: center;
+    color: rgba(54, 48, 49, 1);
+}
+
+/* list section end  */
+
+/* Images bottom start  */
+
+.bottomsection{
+    width: 100%;
+    height: 70rem;
+    background-color: rgba(54, 48, 50, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+
+}
+
+.imagegallery{
+    width: 770px;
+    height: 38.125rem;
+    margin-bottom: 6rem;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    ".ing2  .ing3   .ing4   .ing5   "
+    ".ing6  .ing3   .ing7   .ing8   "
+    ;
+    position: absolute;
+    top: 300px;
+}
+
+.imagegallery div{
+    margin: 0.5rem;
+}
+
+.ing1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 110%;
+    left: 10%;
+
+}
+
+.ing1 h1{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.ing1 h1 br{
+    display: none;
+}
+
+hr{
+    border: 2px solid white;
+    background-color: white;
+    width: 100%;
+
+}
+.ing2{
+grid-area: ing2;
+}
+.ing3{
+    grid-area: ing3;
+}
+.ing4{
+    grid-area: ing4;
+}
+.ing5{
+    grid-area: ing5;
+}
+.ing6{
+    grid-area: ing6;
+}
+.ing7{
+    grid-area: ing7;
+}
+.ing8{
+    grid-area: ing8;
+}
+
+.ing9{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: absolute;
+    bottom: -20%;
+    left: 20%;
+}
+.ing9 h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.ing9 h1 br{
+    display: none;
+}
+
+
+/* Images bottom end */
+
+
+}
